@@ -9,6 +9,4 @@
 # disconnect from VPN, if necessary, and open new vpn connection
 /usr/bin/xterm -e "/usr/bin/sudo /usr/sbin/vpnc-disconnect; /usr/bin/sudo /usr/sbin/vpnc /home/michael/datalex/vpn/maltfield.config; sleep 9"
 
-sleep 9999
-
 exit 0
